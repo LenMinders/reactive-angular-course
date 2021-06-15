@@ -1,8 +1,7 @@
-import { Component, Input, OnInit, Output } from '@angular/core';
+import { Component, Input, OnInit, Output, EventEmitter } from '@angular/core';
 import { Course } from '../model/course';
 import {MatDialog, MatDialogConfig} from '@angular/material/dialog';
 import {CourseDialogComponent} from '../course-dialog/course-dialog.component';
-import { EventEmitter } from 'events';
 import { filter, tap } from 'rxjs/operators';
 
 @Component({
